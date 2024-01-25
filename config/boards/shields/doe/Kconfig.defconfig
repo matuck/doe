@@ -1,0 +1,22 @@
+if SHIELD_DOE_LEFT
+
+    config ZMK_KEYBOARD_NAME
+        default "DOE"
+
+    config ZMK_SPLIT_BLE_ROLE_CENTRAL
+        default y
+endif
+
+if SHIELD_DOE_RIGHT
+
+    config ZMK_KEYBOARD_NAME
+        default "DOE Right"
+
+endif
+
+if SHIELD_DOE_LEFT || SHIELD_DOE_RIGHT
+
+    config ZMK_SPLIT
+        default y
+
+endif
