@@ -37,12 +37,12 @@ RC(4,0) RC(4,1) RC(4,2) RC(4,3)                                                 
 
         diode-direction = "col2row";
 	col-gpios
-            = <&gpio0 2 GPIO_ACTIVE_HIGH> // col5 in the schematic
-            , <&gpio1 15 GPIO_ACTIVE_HIGH> // col4 in the schematic
-            , <&gpio1 13  GPIO_ACTIVE_HIGH> // col3 in the schematic
-            , <&gpio1 11 GPIO_ACTIVE_HIGH> // col2 in the schematic
-            , <&gpio0 10  GPIO_ACTIVE_HIGH> // col1 in the schematic
-            , <&gpio0 9  GPIO_ACTIVE_HIGH> // col0 in the schematic
+            = <&gpio0 9 GPIO_ACTIVE_HIGH> // col5 in the schematic
+            , <&gpio0 10 GPIO_ACTIVE_HIGH> // col4 in the schematic
+            , <&gpio1 11  GPIO_ACTIVE_HIGH> // col3 in the schematic
+            , <&gpio1 13 GPIO_ACTIVE_HIGH> // col2 in the schematic
+            , <&gpio1 15  GPIO_ACTIVE_HIGH> // col1 in the schematic
+            , <&gpio0 2  GPIO_ACTIVE_HIGH> // col0 in the schematic
             ;
         row-gpios
             = <&gpio0 22  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 0 from the schematic file
