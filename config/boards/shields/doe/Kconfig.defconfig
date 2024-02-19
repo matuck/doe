@@ -27,8 +27,8 @@ if SHIELD_DOE_LEFT || SHIELD_DOE_RIGHT
         config SSD1306
             default y
         
-        config SSD1306_REVERSE_MODE
-            default y
+        #config SSD1306_REVERSE_MODE
+            #default y
     
     endif # ZMK_DISPLAY
     
@@ -37,8 +37,8 @@ if SHIELD_DOE_LEFT || SHIELD_DOE_RIGHT
         config LV_Z_VDB_SIZE
             default 64
         
-        config LV_Z_DPI
-            default 148
+        #config LV_Z_DPI
+            #default 148
         
         config LV_Z_BITS_PER_PIXEL
             default 1
