@@ -79,7 +79,7 @@
     &trans    &out OUT_USB &out OUT_BLE &none        &sys_reset   &tog MAC                             &none       &sys_reset &none     &none     &none    &none   
     &trans    &none        &none        &none        &none        &none                                &none       &none      &none     &none     &none    &none   
     &none     &none        &bt BT_CLR   &none        &none        &bootloader                          &bootloader &none      &none     &none     &none    &none   
-    &none        &none        &none        &none                                                                              &none]     &none    &none    &none 
+    &none        &none        &none        &none                                                                              &none     &none    &none    &none 
                                                     &none       &none   &none                 &none    &none     &none 
                                                          &none       &none                    &none     &none    
             >;
